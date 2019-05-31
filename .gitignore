@@ -49,6 +49,10 @@ platforms/windows/build
 platforms/windows/www
 platforms/windows/AppPackages
 
+# Windows Universal App (Windows Platform)
+platforms/electron/build
+platforms/electron/www
+
 # Browser
 platforms/browser/www
 
