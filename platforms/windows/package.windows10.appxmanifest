@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Package IgnorableNamespaces="uap mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10">
+    <Identity Name="io.cordova.hellocordova" Publisher="CN=$username$" Version="1.0.0.0" />
+    <mp:PhoneIdentity PhoneProductId="ec36b500-8363-11e9-98cb-6d7cfed37b75" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+    <Properties>
+        <DisplayName>HelloCordova</DisplayName>
+        <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>
+        <Logo>images\StoreLogo.png</Logo>
+        <Description>A sample Apache Cordova application that responds to the deviceready event.</Description>
+    </Properties>
+    <Dependencies>
+        <TargetDeviceFamily MaxVersionTested="10.0.10240.0" MinVersion="10.0.10240.0" Name="Windows.Universal" />
+    </Dependencies>
+    <Resources>
+        <Resource Language="x-generate" />
+    </Resources>
+    <Applications>
+        <Application Id="io.cordova.hellocordova" StartPage="ms-appx-web://io.cordova.hellocordova/www/index.html">
+            <uap:VisualElements BackgroundColor="#464646" Description="A sample Apache Cordova application that responds to the deviceready event." DisplayName="HelloCordova" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+                <uap:SplashScreen Image="images\splashscreen.png" />
+                <uap:DefaultTile ShortName="HelloCordova" Square310x310Logo="images\Square310x310Logo.png" Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" />
+                <uap:InitialRotationPreference>
+                    <uap:Rotation Preference="portrait" />
+                    <uap:Rotation Preference="landscape" />
+                    <uap:Rotation Preference="landscapeFlipped" />
+                </uap:InitialRotationPreference>
+            </uap:VisualElements>
+            <uap:ApplicationContentUriRules>
+                <uap:Rule Match="ms-appx-web:///" Type="include" WindowsRuntimeAccess="all" />
+            </uap:ApplicationContentUriRules>
+        </Application>
+    </Applications>
+    <Capabilities>
+        <Capability Name="internetClient" />
+    </Capabilities>
+</Package>

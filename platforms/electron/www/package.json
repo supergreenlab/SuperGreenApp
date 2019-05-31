@@ -1,0 +1,10 @@
+{
+  "main": "cdv-electron-main.js",
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "homepage": "http://cordova.io",
+  "license": "Apache-2.0",
+  "author": "Apache Cordova Team"
+}

@@ -1,0 +1,17 @@
+{
+  "config": {
+    "appId": "${APP_ID}",
+    "productName": "${APP_TITLE}",
+
+    "directories": {
+      "app": "${APP_WWW_DIR}",
+      "buildResources": "${APP_BUILD_RES_DIR}",
+      "output": "${APP_BUILD_DIR}"
+    },
+    "electronVersion": "4.0.1",
+
+    "electronDownload": {
+      "version": "4.0.1"
+    }
+  }
+}
