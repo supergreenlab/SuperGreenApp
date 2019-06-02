@@ -26,6 +26,8 @@
                 </uap:InitialRotationPreference>
             </uap:VisualElements>
             <uap:ApplicationContentUriRules>
+                <uap:Rule Match="http://*/*" Type="include" WindowsRuntimeAccess="all" />
+                <uap:Rule Match="https://*/*" Type="include" WindowsRuntimeAccess="all" />
                 <uap:Rule Match="ms-appx-web:///" Type="include" WindowsRuntimeAccess="all" />
             </uap:ApplicationContentUriRules>
         </Application>
