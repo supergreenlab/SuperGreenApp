@@ -17,6 +17,8 @@
     "cordova-electron": "^1.0.2",
     "cordova-ios": "^5.0.1",
     "cordova-osx": "^5.0.0",
+    "cordova-plugin-add-swift-support": "^2.0.1",
+    "cordova-plugin-zeroconf": "^1.4.0",
     "cordova-windows": "^7.0.0"
   },
   "devDependencies": {
@@ -24,7 +26,8 @@
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-zeroconf": {}
     },
     "platforms": [
       "android",

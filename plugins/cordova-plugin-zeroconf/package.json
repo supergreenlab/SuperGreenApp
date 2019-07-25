@@ -1,0 +1,68 @@
+{
+  "_from": "cordova-plugin-zeroconf",
+  "_id": "cordova-plugin-zeroconf@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-+E6DdogjuFpN0mmfAWOY/kMHABrce6TWmMEML4dS1HOtQnJ+XJ0jERZdEptzXwtgmJQvY6ZDdO/Dd9t8OHYjpg==",
+  "_location": "/cordova-plugin-zeroconf",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-zeroconf",
+    "name": "cordova-plugin-zeroconf",
+    "escapedName": "cordova-plugin-zeroconf",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-zeroconf/-/cordova-plugin-zeroconf-1.4.0.tgz",
+  "_shasum": "febd21ab1f1655af5bdca94627a5045218cf48c1",
+  "_spec": "cordova-plugin-zeroconf",
+  "_where": "/home/stant/SuperGreenLab/SuperGreenApp",
+  "author": {
+    "name": "Sylvain Bréjeon",
+    "url": "https://github.com/becvert"
+  },
+  "bugs": {
+    "url": "https://github.com/becvert/cordova-plugin-zeroconf/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": {
+    "name": "Eric McNiece",
+    "url": "https://github.com/emcniece"
+  },
+  "cordova": {
+    "id": "cordova-plugin-zeroconf",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova ZeroConf plugin",
+  "homepage": "https://github.com/becvert/cordova-plugin-zeroconf",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "network",
+    "zeroconf",
+    "bonjour",
+    "mdns",
+    "service",
+    "discovery"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-zeroconf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becvert/cordova-plugin-zeroconf.git"
+  },
+  "version": "1.4.0"
+}

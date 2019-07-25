@@ -9,7 +9,14 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "HelloCordova"
+    },
+    "cordova-plugin-zeroconf": {
+      "PACKAGE_NAME": "HelloCordova"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "HelloCordova"
+    }
+  }
 }

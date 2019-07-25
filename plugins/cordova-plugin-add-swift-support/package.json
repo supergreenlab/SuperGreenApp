@@ -1,0 +1,77 @@
+{
+  "_from": "cordova-plugin-add-swift-support@2.0.1",
+  "_id": "cordova-plugin-add-swift-support@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-R7TB2TRC6lO+na371SqdOpTNoCYdW6i+m4BC3tf0pkhQXNmypbcZlA+R1TJ8xRVCJEhHt4thGxngvPbNQBn4Xg==",
+  "_location": "/cordova-plugin-add-swift-support",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-add-swift-support@2.0.1",
+    "name": "cordova-plugin-add-swift-support",
+    "escapedName": "cordova-plugin-add-swift-support",
+    "rawSpec": "2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "2.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-add-swift-support/-/cordova-plugin-add-swift-support-2.0.1.tgz",
+  "_shasum": "37f9582fc28616df240d90fae14e220e78fcf604",
+  "_spec": "cordova-plugin-add-swift-support@2.0.1",
+  "_where": "/home/stant/SuperGreenLab/SuperGreenApp",
+  "author": {
+    "name": "Alexis Kofman",
+    "email": "alexis.kofman@gmail.com",
+    "url": "http://twitter.com/alexiskofman"
+  },
+  "bugs": {
+    "url": "https://github.com/akofman/cordova-plugin-add-swift-support/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-add-swift-support",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "glob": "^7.1.3",
+    "semver": "^6.0.0",
+    "xcode": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Add Swift support to your iOS plugins",
+  "devDependencies": {
+    "acorn": "^6.1.1",
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "homepage": "https://github.com/akofman/cordova-plugin-add-swift-support",
+  "keywords": [
+    "cordova",
+    "ios",
+    "swift",
+    "swift-support",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova:plugin"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-add-swift-support",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akofman/cordova-plugin-add-swift-support.git"
+  },
+  "scripts": {
+    "test": "eslint src"
+  },
+  "version": "2.0.1"
+}

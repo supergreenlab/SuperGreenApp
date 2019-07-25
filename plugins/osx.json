@@ -7,7 +7,10 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {}
+    "cordova-plugin-whitelist": {},
+    "cordova-plugin-zeroconf": {}
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {}
+  }
 }

@@ -13,6 +13,8 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		1EE36DB9E736424B9F6D93F7 /* ZeroConf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382BFC9676774993A408588D /* ZeroConf.swift */; };
+		78AFF1B99E294780815F8408 /* Hostname.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F561A093994B34BEFD1512 /* Hostname.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloCordova/config.xml"; sourceTree = "<group>"; };
+		382BFC9676774993A408588D /* ZeroConf.swift */ = {isa = PBXFileReference; name = "ZeroConf.swift"; path = "cordova-plugin-zeroconf/ZeroConf.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		77F561A093994B34BEFD1512 /* Hostname.m */ = {isa = PBXFileReference; name = "Hostname.m"; path = "cordova-plugin-zeroconf/Hostname.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6076BFEAFA0D46C2AFCA4187 /* ZeroConf-Bridging-Header.h */ = {isa = PBXFileReference; name = "ZeroConf-Bridging-Header.h"; path = "cordova-plugin-zeroconf/ZeroConf-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		14C728BB454A4D43801A4776 /* Hostname.h */ = {isa = PBXFileReference; name = "Hostname.h"; path = "cordova-plugin-zeroconf/Hostname.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				382BFC9676774993A408588D /* ZeroConf.swift */,
+				77F561A093994B34BEFD1512 /* Hostname.m */,
+				6076BFEAFA0D46C2AFCA4187 /* ZeroConf-Bridging-Header.h */,
+				14C728BB454A4D43801A4776 /* Hostname.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -288,6 +298,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				1EE36DB9E736424B9F6D93F7 /* ZeroConf.swift in Sources */,
+				78AFF1B99E294780815F8408 /* Hostname.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +336,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.cordova.hellocordova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -347,6 +363,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.cordova.hellocordova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -389,6 +408,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.cordova.hellocordova;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -429,6 +452,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.cordova.hellocordova;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

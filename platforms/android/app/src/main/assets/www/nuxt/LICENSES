@@ -1,15 +1,15 @@
-/**
-  * vue-class-component v7.0.1
-  * (c) 2015-present Evan You
-  * @license MIT
-  */
-
 /*!
  * Chart.js v2.8.0
  * https://www.chartjs.org
  * (c) 2019 Chart.js Contributors
  * Released under the MIT License
  */
+
+/**
+  * vue-class-component v7.0.1
+  * (c) 2015-present Evan You
+  * @license MIT
+  */
 
 /*!
  * vue-no-ssr v1.1.1
