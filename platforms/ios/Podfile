@@ -2,7 +2,7 @@
 
 platform :ios, '9.0'
 
-target 'HelloCordova' do
-	project 'HelloCordova.xcodeproj'
+target 'SuperGreenLab' do
+	project 'SuperGreenLab.xcodeproj'
 
 end
