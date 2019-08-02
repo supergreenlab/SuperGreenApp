@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-    <Identity Name="io.cordova.hellocordova" Publisher="CN=$username$" Version="1.0.0.0" />
+    <Identity Name="com.supergreenlab.app" Publisher="CN=$username$" Version="1.0.0.0" />
     <mp:PhoneIdentity PhoneProductId="ec36b500-8363-11e9-98cb-6d7cfed37b75" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
     <Properties>
-        <DisplayName>HelloCordova</DisplayName>
-        <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>
+        <DisplayName>SuperGreenLab</DisplayName>
+        <PublisherDisplayName>Constantin Clauzel</PublisherDisplayName>
         <Logo>images\StoreLogo.png</Logo>
         <Description>A sample Apache Cordova application that responds to the deviceready event.</Description>
     </Properties>
@@ -16,8 +16,8 @@
         <Resource Language="x-generate" />
     </Resources>
     <Applications>
-        <Application Id="io.cordova.hellocordova" StartPage="www/index.html">
-            <m3:VisualElements BackgroundColor="transparent" Description="A sample Apache Cordova application that responds to the deviceready event." DisplayName="HelloCordova" ForegroundText="light" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+        <Application Id="com.supergreenlab.app" StartPage="www/index.html">
+            <m3:VisualElements BackgroundColor="transparent" Description="A sample Apache Cordova application that responds to the deviceready event." DisplayName="SuperGreenLab" ForegroundText="light" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
                 <m3:DefaultTile Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png">
                     <m3:ShowNameOnTiles>
                         <m3:ShowOn Tile="square150x150Logo" />

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Package IgnorableNamespaces="uap mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10">
-    <Identity Name="io.cordova.hellocordova" Publisher="CN=$username$" Version="1.0.0.0" />
+    <Identity Name="com.supergreenlab.app" Publisher="CN=$username$" Version="1.0.0.0" />
     <mp:PhoneIdentity PhoneProductId="ec36b500-8363-11e9-98cb-6d7cfed37b75" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
     <Properties>
-        <DisplayName>HelloCordova</DisplayName>
-        <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>
+        <DisplayName>SuperGreenLab</DisplayName>
+        <PublisherDisplayName>Constantin Clauzel</PublisherDisplayName>
         <Logo>images\StoreLogo.png</Logo>
         <Description>A sample Apache Cordova application that responds to the deviceready event.</Description>
     </Properties>
@@ -15,8 +15,8 @@
         <Resource Language="x-generate" />
     </Resources>
     <Applications>
-        <Application Id="io.cordova.hellocordova" StartPage="ms-appx-web://io.cordova.hellocordova/www/index.html">
-            <uap:VisualElements BackgroundColor="#464646" Description="A sample Apache Cordova application that responds to the deviceready event." DisplayName="HelloCordova" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+        <Application Id="com.supergreenlab.app" StartPage="ms-appx-web://com.supergreenlab.app/www/index.html">
+            <uap:VisualElements BackgroundColor="#464646" Description="A sample Apache Cordova application that responds to the deviceready event." DisplayName="SuperGreenLab" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
                 <uap:SplashScreen Image="images\splashscreen.png" />
                 <uap:DefaultTile ShortName="HelloCordova" Square310x310Logo="images\Square310x310Logo.png" Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" />
                 <uap:InitialRotationPreference>

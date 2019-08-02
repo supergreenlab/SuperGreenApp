@@ -12,10 +12,16 @@
     },
     "cordova-plugin-zeroconf": {
       "PACKAGE_NAME": "HelloCordova"
+    },
+    "cordova-plugin-ble-central": {
+      "PACKAGE_NAME": "HelloCordova"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "HelloCordova"
+    },
+    "cordova-plugin-compat": {
       "PACKAGE_NAME": "HelloCordova"
     }
   }
