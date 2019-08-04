@@ -37,9 +37,9 @@
     "platforms": [
       "android",
       "electron",
-      "ios",
       "osx",
-      "windows"
+      "windows",
+      "ios"
     ]
   }
 }
