@@ -3,11 +3,11 @@
   "display": "standalone",
   "orientation": "any",
   "start_url": "index.html",
-  "name": "HelloCordova",
-  "short_name": "HelloCordova",
-  "version": "io.cordova.hellocordova",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
+  "name": "SuperGreenLab",
+  "short_name": "SuperGreenLab",
+  "version": "com.supergreenlab.app",
+  "description": "Controler your growbox with your smartphone.",
+  "author": "Constantin Clauzel",
   "icons": [
     {
       "src": "app-icon.png",

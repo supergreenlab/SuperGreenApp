@@ -12,6 +12,9 @@
     },
     "cordova-plugin-zeroconf": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-ble-central": {
+      "PACKAGE_NAME": "com.supergreenlab.app"
     }
   },
   "dependent_plugins": {

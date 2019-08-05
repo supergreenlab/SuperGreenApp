@@ -12,10 +12,16 @@
     },
     "cordova-plugin-zeroconf": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-ble-central": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-compat": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   }

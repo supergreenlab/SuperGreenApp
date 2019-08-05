@@ -8,9 +8,11 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {},
-    "cordova-plugin-zeroconf": {}
+    "cordova-plugin-zeroconf": {},
+    "cordova-plugin-ble-central": {}
   },
   "dependent_plugins": {
-    "cordova-plugin-add-swift-support": {}
+    "cordova-plugin-add-swift-support": {},
+    "cordova-plugin-compat": {}
   }
 }

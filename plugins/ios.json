@@ -7,15 +7,13 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "cordova-plugin-zeroconf": {
+    "cordova-plugin-ble-central": {
+      "BLUETOOTH_USAGE_DESCRIPTION": "Your description here",
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-add-swift-support": {
+    "cordova-plugin-compat": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   }

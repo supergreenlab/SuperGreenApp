@@ -12,6 +12,26 @@
               "xml": "<feature name=\"ZeroConf\"><param name=\"ios-package\" value=\"ZeroConf\" /></feature>",
               "count": 1
             }
+          ],
+          "/widget": [
+            {
+              "xml": "<feature name=\"BLE\"><param name=\"ios-package\" onload=\"true\" value=\"BLECentralPlugin\" /></feature>",
+              "count": 2
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "NSBluetoothPeripheralUsageDescription": [
+            {
+              "xml": "<string> </string>",
+              "count": 1
+            },
+            {
+              "xml": "<string>Your description here</string>",
+              "count": 1
+            }
           ]
         }
       }
@@ -26,6 +46,13 @@
     },
     "cordova-plugin-zeroconf": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-ble-central": {
+      "BLUETOOTH_USAGE_DESCRIPTION": "Your description here",
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
   "dependent_plugins": {},
@@ -37,11 +64,21 @@
       "clobbers": [
         "cordova.plugins.zeroconf"
       ]
+    },
+    {
+      "id": "cordova-plugin-ble-central.ble",
+      "file": "plugins/cordova-plugin-ble-central/www/ble.js",
+      "pluginId": "cordova-plugin-ble-central",
+      "clobbers": [
+        "ble"
+      ]
     }
   ],
   "plugin_metadata": {
     "cordova-plugin-add-swift-support": "2.0.1",
-    "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-zeroconf": "1.4.0"
+    "cordova-plugin-zeroconf": "1.4.0",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-ble-central": "1.2.2",
+    "cordova-plugin-whitelist": "1.3.3"
   }
 }

@@ -1,10 +1,10 @@
 {
   "main": "cdv-electron-main.js",
-  "name": "io.cordova.hellocordova",
-  "displayName": "HelloCordova",
+  "name": "com.supergreenlab.app",
+  "displayName": "SuperGreenLab",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "homepage": "http://cordova.io",
+  "description": "Controler your growbox with your smartphone.",
+  "homepage": "http://www.supergreenlab.com",
   "license": "Apache-2.0",
-  "author": "Apache Cordova Team"
+  "author": "Constantin Clauzel"
 }

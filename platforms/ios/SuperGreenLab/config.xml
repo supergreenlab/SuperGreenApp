@@ -22,6 +22,9 @@
     <feature name="ZeroConf">
         <param name="ios-package" value="ZeroConf" />
     </feature>
+    <feature name="BLE">
+        <param name="ios-package" onload="true" value="BLECentralPlugin" />
+    </feature>
     <name>SuperGreenLab</name>
     <description>
       Controler your growbox with your smartphone.
