@@ -2,7 +2,7 @@
 <widget id="com.supergreenlab.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SuperGreenLab</name>
     <description>
-      Controler your growbox with your smartphone.
+      Control your growbox with your smartphone.
     </description>
     <author email="services@supergreenlab.com" href="http://www.supergreenlab.com">
       Constantin Clauzel

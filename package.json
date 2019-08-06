@@ -1,8 +1,8 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloCordova",
+  "name": "SuperGreenLab",
+  "displayName": "SuperGreenLab",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "Control your growbox with your smartphone.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,7 +31,7 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-zeroconf": {},
       "cordova-plugin-ble-central": {
-        "BLUETOOTH_USAGE_DESCRIPTION": "Your description here"
+        "BLUETOOTH_USAGE_DESCRIPTION": "For an easier wifi configuration"
       }
     },
     "platforms": [
