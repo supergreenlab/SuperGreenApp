@@ -5,13 +5,14 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		707060AF18FFC05700755D46 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 707060AE18FFC05700755D46 /* MainViewController.xib */; };
 		70BD682718FFB02D00A1EFCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD682618FFB02D00A1EFCF /* Cocoa.framework */; };
 		70BD683118FFB02D00A1EFCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70BD682F18FFB02D00A1EFCF /* InfoPlist.strings */; };
 		70BD683318FFB02D00A1EFCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BD683218FFB02D00A1EFCF /* main.m */; };
 		70BD683F18FFB02D00A1EFCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BD683E18FFB02D00A1EFCF /* Images.xcassets */; };
-		70BD686318FFB04800A1EFCF /* libCordovaLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD686018FFB04300A1EFCF /* libCordovaLib.a */; };
+		70BD686318FFB04800A1EFCF /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD686018FFB04300A1EFCF /* libCordova.a */; };
 		70BD686618FFB06500A1EFCF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD686418FFB06500A1EFCF /* SystemConfiguration.framework */; };
 		70BD686718FFB06500A1EFCF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD686518FFB06500A1EFCF /* WebKit.framework */; };
 		70BD686D18FFB0BF00A1EFCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BD686A18FFB0BF00A1EFCF /* AppDelegate.m */; };
@@ -25,13 +26,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 70BD673A18FF9DAE00A1EFCF;
 			remoteInfo = CordovaLib;
-		};
-		70BD686118FFB04300A1EFCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70BD685A18FFB04300A1EFCF /* CordovaLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 70BD674D18FF9DAE00A1EFCF;
-			remoteInfo = CordovaLibTests;
 		};
 		70BD687018FFB19500A1EFCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -57,8 +51,8 @@
 
 /* Begin PBXFileReference section */
 		707060AE18FFC05700755D46 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		707060B018FFC0D900755D46 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "SuperGreenLab/config.xml"; sourceTree = "<group>"; };
-		70BD682318FFB02D00A1EFCF /* SuperGreenLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuperGreenLab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707060B018FFC0D900755D46 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = SuperGreenLab/config.xml; sourceTree = "<group>"; };
+		70BD682318FFB02D00A1EFCF /* SuperGreenLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperGreenLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BD682618FFB02D00A1EFCF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		70BD682918FFB02D00A1EFCF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		70BD682A18FFB02D00A1EFCF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -83,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BD686318FFB04800A1EFCF /* libCordovaLib.a in Frameworks */,
+				70BD686318FFB04800A1EFCF /* libCordova.a in Frameworks */,
 				70BD686618FFB06500A1EFCF /* SystemConfiguration.framework in Frameworks */,
 				70BD686718FFB06500A1EFCF /* WebKit.framework in Frameworks */,
 				70BD682718FFB02D00A1EFCF /* Cocoa.framework in Frameworks */,
@@ -98,7 +92,7 @@
 			children = (
 			);
 			name = Plugins;
-			path = "SuperGreenLab/Plugins";
+			path = SuperGreenLab/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
 		70BD681A18FFB02D00A1EFCF = {
@@ -152,7 +146,7 @@
 				70BD683E18FFB02D00A1EFCF /* Images.xcassets */,
 				70BD682D18FFB02D00A1EFCF /* Supporting Files */,
 			);
-			path = "SuperGreenLab";
+			path = SuperGreenLab;
 			sourceTree = "<group>";
 		};
 		70BD682D18FFB02D00A1EFCF /* Supporting Files */ = {
@@ -169,8 +163,7 @@
 		70BD685B18FFB04300A1EFCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70BD686018FFB04300A1EFCF /* libCordovaLib.a */,
-				70BD686218FFB04300A1EFCF /* CordovaLibTests.xctest */,
+				70BD686018FFB04300A1EFCF /* libCordova.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,7 +177,7 @@
 				70BD686C18FFB0BF00A1EFCF /* MainViewController.m */,
 			);
 			name = Classes;
-			path = "SuperGreenLab/Classes";
+			path = SuperGreenLab/Classes;
 			sourceTree = "<group>";
 		};
 		70D86C851B903D11000750E0 /* Resources */ = {
@@ -192,7 +185,7 @@
 			children = (
 			);
 			name = Resources;
-			path = "SuperGreenLab/Resources";
+			path = SuperGreenLab/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +206,8 @@
 			dependencies = (
 				70BD687118FFB19500A1EFCF /* PBXTargetDependency */,
 			);
-			name = "SuperGreenLab";
-			productName = "SuperGreenLab";
+			name = SuperGreenLab;
+			productName = SuperGreenLab;
 			productReference = 70BD682318FFB02D00A1EFCF /* SuperGreenLab.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -226,12 +219,19 @@
 			attributes = {
 				LastUpgradeCheck = 510;
 				ORGANIZATIONNAME = __CDV_ORGANIZATION_NAME__;
+				TargetAttributes = {
+					70BD682218FFB02D00A1EFCF = {
+						DevelopmentTeam = 73JC3QAG2J;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 70BD681E18FFB02D00A1EFCF /* Build configuration list for PBXProject "SuperGreenLab" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -252,18 +252,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		70BD686018FFB04300A1EFCF /* libCordovaLib.a */ = {
+		70BD686018FFB04300A1EFCF /* libCordova.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libCordovaLib.a;
+			path = libCordova.a;
 			remoteRef = 70BD685F18FFB04300A1EFCF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		70BD686218FFB04300A1EFCF /* CordovaLibTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CordovaLibTests.xctest;
-			remoteRef = 70BD686118FFB04300A1EFCF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -372,8 +365,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SuperGreenLab;
 				SDKROOT = macosx;
-				PRODUCT_NAME = "SuperGreenLab";
 			};
 			name = Debug;
 		};
@@ -412,8 +405,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SuperGreenLab;
 				SDKROOT = macosx;
-				PRODUCT_NAME = "SuperGreenLab";
 			};
 			name = Release;
 		};
@@ -421,12 +414,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 73JC3QAG2J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperGreenLab/SuperGreenLab-Prefix.pch";
 				INFOPLIST_FILE = "SuperGreenLab/SuperGreenLab-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "SuperGreenLab";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supergreenlab.controller;
+				PRODUCT_NAME = SuperGreenLab;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -435,12 +433,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 73JC3QAG2J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperGreenLab/SuperGreenLab-Prefix.pch";
 				INFOPLIST_FILE = "SuperGreenLab/SuperGreenLab-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "SuperGreenLab";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supergreenlab.controller;
+				PRODUCT_NAME = SuperGreenLab;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
