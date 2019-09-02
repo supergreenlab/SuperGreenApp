@@ -27,6 +27,11 @@ platforms/ios/www/
 platforms/ios/cordova/console.log
 *.xcuserdatad
 
+# osx Platform
+platforms/osx/build/
+platforms/osx/www/
+dist/
+
 # Android Platform
 platforms/android/.gradle
 platforms/android/build
