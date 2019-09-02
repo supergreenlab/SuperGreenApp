@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.supergreenlab.app" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.supergreenlab.app" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SuperGreenLab</name>
     <description>
-      Control your growbox with your smartphone.
+      Control your growbox from your smartphone.
     </description>
     <author email="services@supergreenlab.com" href="http://www.supergreenlab.com">
       Constantin Clauzel
@@ -10,68 +10,80 @@
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
-    <icon src="icon.jpg" width="1024" height="1024" />
     <allow-navigation href="http://*/*" />
     <allow-navigation href="https://*/*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="SplashMaintainAspectRatio" value="true"/>
         <preference name="SplashShowOnlyFirstTime" value="true"/>
         <preference name="SplashMaintainAspectRatio" value="true"/>
         <preference name="SplashShowOnlyFirstTime" value="true"/>
+
+        <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi" />
+        <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi" />
+        <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi" />
+        <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi" />
+        <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
     </platform>
+
+    <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+      <application android:usesCleartextTraffic="true" />
+    </edit-config>
     
     <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
+      <allow-intent href="itms:*" />
+      <allow-intent href="itms-apps:*" />
 
-	<icon src="resources/ios/icon//Icon-20x20@1x.png" width="20" height="20"/>
-	<icon src="resources/ios/icon//Icon-20x20@2x.png" width="40" height="40"/>
-	<icon src="resources/ios/icon//Icon-20x20@3x.png" width="60" height="60"/>
-	<icon src="resources/ios/icon//Icon-29x29@1x.png" width="29" height="29"/>
-	<icon src="resources/ios/icon//Icon-29x29@2x.png" width="58" height="58"/>
-	<icon src="resources/ios/icon//Icon-29x29@3x.png" width="87" height="87"/>
-	<icon src="resources/ios/icon//Icon-40x40@2x.png" width="80" height="80"/>
-	<icon src="resources/ios/icon//Icon-40x40@3x.png" width="120" height="120"/>
-	<icon src="resources/ios/icon//Icon-60x60@2x.png" width="120" height="120"/>
-	<icon src="resources/ios/icon//Icon-60x60@3x.png" width="180" height="180"/>
-	<icon src="resources/ios/icon//Icon-76x76@1x.png" width="76" height="76"/>
-	<icon src="resources/ios/icon//Icon-76x76@2x.png" width="152" height="152"/>
-	<icon src="resources/ios/icon//Icon-83.5@2x.png" width="167" height="167"/>
-	<icon src="resources/ios/icon//Icon-marketing-1024x1024.png" width="1024" height="1024"/>
+      <icon src="resources/ios/icon/Icon-20x20@1x.png" width="20" height="20"/>
+      <icon src="resources/ios/icon/Icon-20x20@2x.png" width="40" height="40"/>
+      <icon src="resources/ios/icon/Icon-20x20@3x.png" width="60" height="60"/>
+      <icon src="resources/ios/icon/Icon-29x29@1x.png" width="29" height="29"/>
+      <icon src="resources/ios/icon/Icon-29x29@2x.png" width="58" height="58"/>
+      <icon src="resources/ios/icon/Icon-29x29@3x.png" width="87" height="87"/>
+      <icon src="resources/ios/icon/Icon-40x40@2x.png" width="80" height="80"/>
+      <icon src="resources/ios/icon/Icon-40x40@3x.png" width="120" height="120"/>
+      <icon src="resources/ios/icon/Icon-60x60@2x.png" width="120" height="120"/>
+      <icon src="resources/ios/icon/Icon-60x60@3x.png" width="180" height="180"/>
+      <icon src="resources/ios/icon/Icon-76x76@1x.png" width="76" height="76"/>
+      <icon src="resources/ios/icon/Icon-76x76@2x.png" width="152" height="152"/>
+      <icon src="resources/ios/icon/Icon-83.5@2x.png" width="167" height="167"/>
+      <icon src="resources/ios/icon/Icon-marketing-1024x1024.png" width="1024" height="1024"/>
 
-	<splash src="resources/ios/splash//LaunchImage-1125@3x~iphoneX-portrait_1125x2436.png" />
-	<splash src="resources/ios/splash//LaunchImage-1242@3x~iphone6s-landscape_2208x1242.png" />
-	<splash src="resources/ios/splash//LaunchImage-1242@3x~iphone6s-portrait_1242x2208.png" />
-	<splash src="resources/ios/splash//LaunchImage-1242@3x~iphoneXsMax-portrait_1242x2688.png" />
-	<splash src="resources/ios/splash//LaunchImage-1792@2x~iphoneXr-landscape_1792x828.png" />
-	<splash src="resources/ios/splash//LaunchImage-2436@3x~iphoneX-landscape_2436x1125.png" />
-	<splash src="resources/ios/splash//LaunchImage-2688@3x~iphoneXsMax-landscape_2688x1242.png" />
-	<splash src="resources/ios/splash//LaunchImage-568h@2x~iphone_640x1136.png" />
-	<splash src="resources/ios/splash//LaunchImage-750@2x~iphone6-landscape_1334x750.png" />
-	<splash src="resources/ios/splash//LaunchImage-750@2x~iphone6-portrait_750x1334.png" />
-	<splash src="resources/ios/splash//LaunchImage-828@2x~iphoneXr-portrait_828x1792.png" />
-	<splash src="resources/ios/splash//LaunchImage-Landscape@2x~ipad_2048x1496.png" />
-	<splash src="resources/ios/splash//LaunchImage-Landscape@2x~ipad_2048x1536.png" />
-	<splash src="resources/ios/splash//LaunchImage-Landscape@2x~ipad_2224x1668.png" />
-	<splash src="resources/ios/splash//LaunchImage-Landscape@2x~ipad_2732x2048.png" />
-	<splash src="resources/ios/splash//LaunchImage-Landscape~ipad_1024x748.png" />
-	<splash src="resources/ios/splash//LaunchImage-Landscape~ipad_1024x768.png" />
-	<splash src="resources/ios/splash//LaunchImage-Portrait@2x~ipad_1536x2008.png" />
-	<splash src="resources/ios/splash//LaunchImage-Portrait@2x~ipad_1536x2048.png" />
-	<splash src="resources/ios/splash//LaunchImage-Portrait@2x~ipad_1668x2224.png" />
-	<splash src="resources/ios/splash//LaunchImage-Portrait@2x~ipad_2048x2732.png" />
-	<splash src="resources/ios/splash//LaunchImage-Portrait~ipad_768x1024.png" />
-	<splash src="resources/ios/splash//LaunchImage.png" />
-	<splash src="resources/ios/splash//LaunchImage~ipad.png" />
-	<splash src="resources/ios/splash//LaunchImage~iphone-320x480.png" />
-	<splash src="resources/ios/splash//LaunchImage~iphone_640x960.png" />
+      <splash src="resources/ios/splash/LaunchImage-1125@3x~iphoneX-portrait_1125x2436.png" />
+      <splash src="resources/ios/splash/LaunchImage-1242@3x~iphone6s-landscape_2208x1242.png" />
+      <splash src="resources/ios/splash/LaunchImage-1242@3x~iphone6s-portrait_1242x2208.png" />
+      <splash src="resources/ios/splash/LaunchImage-1242@3x~iphoneXsMax-portrait_1242x2688.png" />
+      <splash src="resources/ios/splash/LaunchImage-1792@2x~iphoneXr-landscape_1792x828.png" />
+      <splash src="resources/ios/splash/LaunchImage-2436@3x~iphoneX-landscape_2436x1125.png" />
+      <splash src="resources/ios/splash/LaunchImage-2688@3x~iphoneXsMax-landscape_2688x1242.png" />
+      <splash src="resources/ios/splash/LaunchImage-568h@2x~iphone_640x1136.png" />
+      <splash src="resources/ios/splash/LaunchImage-750@2x~iphone6-landscape_1334x750.png" />
+      <splash src="resources/ios/splash/LaunchImage-750@2x~iphone6-portrait_750x1334.png" />
+      <splash src="resources/ios/splash/LaunchImage-828@2x~iphoneXr-portrait_828x1792.png" />
+      <splash src="resources/ios/splash/LaunchImage-Landscape@2x~ipad_2048x1496.png" />
+      <splash src="resources/ios/splash/LaunchImage-Landscape@2x~ipad_2048x1536.png" />
+      <splash src="resources/ios/splash/LaunchImage-Landscape@2x~ipad_2224x1668.png" />
+      <splash src="resources/ios/splash/LaunchImage-Landscape@2x~ipad_2732x2048.png" />
+      <splash src="resources/ios/splash/LaunchImage-Landscape~ipad_1024x748.png" />
+      <splash src="resources/ios/splash/LaunchImage-Landscape~ipad_1024x768.png" />
+      <splash src="resources/ios/splash/LaunchImage-Portrait@2x~ipad_1536x2008.png" />
+      <splash src="resources/ios/splash/LaunchImage-Portrait@2x~ipad_1536x2048.png" />
+      <splash src="resources/ios/splash/LaunchImage-Portrait@2x~ipad_1668x2224.png" />
+      <splash src="resources/ios/splash/LaunchImage-Portrait@2x~ipad_2048x2732.png" />
+      <splash src="resources/ios/splash/LaunchImage-Portrait~ipad_768x1024.png" />
+      <splash src="resources/ios/splash/LaunchImage.png" />
+      <splash src="resources/ios/splash/LaunchImage~ipad.png" />
+      <splash src="resources/ios/splash/LaunchImage~iphone-320x480.png" />
+      <splash src="resources/ios/splash/LaunchImage~iphone_640x960.png" />
     </platform>
 
     <platform name="windows">

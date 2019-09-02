@@ -7,19 +7,19 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-ble-central": {
+      "PACKAGE_NAME": "com.supergreenlab.app"
+    },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "com.supergreenlab.app"
     },
     "cordova-plugin-zeroconf": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-ble-central": {
       "PACKAGE_NAME": "com.supergreenlab.app"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-add-swift-support": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "com.supergreenlab.app"
     }
   }
 }

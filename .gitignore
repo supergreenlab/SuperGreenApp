@@ -60,3 +60,7 @@ platforms/browser/www
 resources/signing
 
 node_modules
+
+# vi
+*.swp
+*.swo

@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.supergreenlab.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.supergreenlab.app" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="BLE">
+        <param name="android-package" value="com.megster.cordova.ble.central.BLECentralPlugin" />
+    </feature>
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
@@ -7,40 +10,34 @@
     <feature name="ZeroConf">
         <param name="android-package" value="net.becvert.cordova.ZeroConf" />
     </feature>
-    <feature name="BLE">
-        <param name="android-package" value="com.megster.cordova.ble.central.BLECentralPlugin" />
-    </feature>
     <name>SuperGreenLab</name>
     <description>
-      Control your growbox with your smartphone.
+      Control your growbox from your smartphone.
     </description>
     <author email="services@supergreenlab.com" href="http://www.supergreenlab.com">
       Constantin Clauzel
     </author>
     <content src="index.html" />
     <access allows-arbitrary-loads-for-media="true" allows-arbitrary-loads-in-web-content="true" allows-local-networking="true" origin="*" />
-    <icon height="1024" src="app-icon.jpg" width="1024" />
     <allow-navigation href="http://*/*" />
     <allow-navigation href="https://*/*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:usesCleartextTraffic="true" />
+    </edit-config>
     <allow-intent href="market:*" />
-    <icon density="ldpi" src="res/icon/android/ldpi.png" />
-    <icon density="mdpi" src="res/icon/android/mdpi.png" />
-    <icon density="hdpi" src="res/icon/android/hdpi.png" />
-    <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
-    <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
-    <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
-    <splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png" />
-    <splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png" />
-    <splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png" />
-    <splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png" />
-    <splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png" />
-    <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png" />
+    <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
+    <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
+    <icon density="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <icon density="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
+    <icon density="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="true" />
