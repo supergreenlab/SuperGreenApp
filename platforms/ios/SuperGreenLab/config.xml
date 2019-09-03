@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.supergreenlab.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.supergreenlab.app" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
@@ -19,72 +19,57 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="ZeroConf">
-        <param name="ios-package" value="ZeroConf" />
-    </feature>
     <feature name="BLE">
         <param name="ios-package" onload="true" value="BLECentralPlugin" />
     </feature>
+    <feature name="ZeroConf">
+        <param name="ios-package" value="ZeroConf" />
+    </feature>
     <name>SuperGreenLab</name>
     <description>
-      Control your growbox with your smartphone.
+      Control your growbox from your smartphone.
     </description>
     <author email="services@supergreenlab.com" href="http://www.supergreenlab.com">
       Constantin Clauzel
     </author>
     <content src="index.html" />
     <access allows-arbitrary-loads-for-media="true" allows-arbitrary-loads-in-web-content="true" allows-local-networking="true" origin="*" />
-    <icon height="1024" src="icon.jpg" width="1024" />
     <allow-navigation href="http://*/*" />
     <allow-navigation href="https://*/*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:usesCleartextTraffic="true" />
+    </edit-config>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <icon height="20" src="resources/ios/icon//Icon-20x20@1x.png" width="20" />
-    <icon height="40" src="resources/ios/icon//Icon-20x20@2x.png" width="40" />
-    <icon height="60" src="resources/ios/icon//Icon-20x20@3x.png" width="60" />
-    <icon height="29" src="resources/ios/icon//Icon-29x29@1x.png" width="29" />
-    <icon height="58" src="resources/ios/icon//Icon-29x29@2x.png" width="58" />
-    <icon height="87" src="resources/ios/icon//Icon-29x29@3x.png" width="87" />
-    <icon height="80" src="resources/ios/icon//Icon-40x40@2x.png" width="80" />
-    <icon height="120" src="resources/ios/icon//Icon-40x40@3x.png" width="120" />
-    <icon height="120" src="resources/ios/icon//Icon-60x60@2x.png" width="120" />
-    <icon height="180" src="resources/ios/icon//Icon-60x60@3x.png" width="180" />
-    <icon height="76" src="resources/ios/icon//Icon-76x76@1x.png" width="76" />
-    <icon height="152" src="resources/ios/icon//Icon-76x76@2x.png" width="152" />
-    <icon height="167" src="resources/ios/icon//Icon-83.5@2x.png" width="167" />
-    <icon height="1024" src="resources/ios/icon//Icon-marketing-1024x1024.png" width="1024" />
-    <splash src="resources/ios/splash//LaunchImage-1125@3x~iphoneX-portrait_1125x2436.png" />
-    <splash src="resources/ios/splash//LaunchImage-1242@3x~iphone6s-landscape_2208x1242.png" />
-    <splash src="resources/ios/splash//LaunchImage-1242@3x~iphone6s-portrait_1242x2208.png" />
-    <splash src="resources/ios/splash//LaunchImage-1242@3x~iphoneXsMax-portrait_1242x2688.png" />
-    <splash src="resources/ios/splash//LaunchImage-1792@2x~iphoneXr-landscape_1792x828.png" />
-    <splash src="resources/ios/splash//LaunchImage-2436@3x~iphoneX-landscape_2436x1125.png" />
-    <splash src="resources/ios/splash//LaunchImage-2688@3x~iphoneXsMax-landscape_2688x1242.png" />
-    <splash src="resources/ios/splash//LaunchImage-568h@2x~iphone_640x1136.png" />
-    <splash src="resources/ios/splash//LaunchImage-750@2x~iphone6-landscape_1334x750.png" />
-    <splash src="resources/ios/splash//LaunchImage-750@2x~iphone6-portrait_750x1334.png" />
-    <splash src="resources/ios/splash//LaunchImage-828@2x~iphoneXr-portrait_828x1792.png" />
-    <splash src="resources/ios/splash//LaunchImage-Landscape@2x~ipad_2048x1496.png" />
-    <splash src="resources/ios/splash//LaunchImage-Landscape@2x~ipad_2048x1536.png" />
-    <splash src="resources/ios/splash//LaunchImage-Landscape@2x~ipad_2224x1668.png" />
-    <splash src="resources/ios/splash//LaunchImage-Landscape@2x~ipad_2732x2048.png" />
-    <splash src="resources/ios/splash//LaunchImage-Landscape~ipad_1024x748.png" />
-    <splash src="resources/ios/splash//LaunchImage-Landscape~ipad_1024x768.png" />
-    <splash src="resources/ios/splash//LaunchImage-Portrait@2x~ipad_1536x2008.png" />
-    <splash src="resources/ios/splash//LaunchImage-Portrait@2x~ipad_1536x2048.png" />
-    <splash src="resources/ios/splash//LaunchImage-Portrait@2x~ipad_1668x2224.png" />
-    <splash src="resources/ios/splash//LaunchImage-Portrait@2x~ipad_2048x2732.png" />
-    <splash src="resources/ios/splash//LaunchImage-Portrait~ipad_768x1024.png" />
-    <splash src="resources/ios/splash//LaunchImage.png" />
-    <splash src="resources/ios/splash//LaunchImage~ipad.png" />
-    <splash src="resources/ios/splash//LaunchImage~iphone-320x480.png" />
-    <splash src="resources/ios/splash//LaunchImage~iphone_640x960.png" />
+    <icon height="48" src="resources/ios/icon/icon-24@2x.png" width="48" />
+    <icon height="55" src="resources/ios/icon/icon-27.5@2x.png" width="55" />
+    <icon height="180" src="resources/ios/icon/icon-60@3x.png" width="180" />
+    <icon height="60" src="resources/ios/icon/icon-60.png" width="60" />
+    <icon height="120" src="resources/ios/icon/icon-60@2x.png" width="120" />
+    <icon height="76" src="resources/ios/icon/icon-76.png" width="76" />
+    <icon height="152" src="resources/ios/icon/icon-76@2x.png" width="152" />
+    <icon height="40" src="resources/ios/icon/icon-40.png" width="40" />
+    <icon height="80" src="resources/ios/icon/icon-40@2x.png" width="80" />
+    <icon height="57" src="resources/ios/icon/icon.png" width="57" />
+    <icon height="114" src="resources/ios/icon/icon@2x.png" width="114" />
+    <icon height="72" src="resources/ios/icon/icon-72.png" width="72" />
+    <icon height="144" src="resources/ios/icon/icon-72@2x.png" width="144" />
+    <icon height="167" src="resources/ios/icon/icon-167.png" width="167" />
+    <icon height="29" src="resources/ios/icon/icon-small.png" width="29" />
+    <icon height="58" src="resources/ios/icon/icon-small@2x.png" width="58" />
+    <icon height="87" src="resources/ios/icon/icon-small@3x.png" width="87" />
+    <icon height="50" src="resources/ios/icon/icon-50.png" width="50" />
+    <icon height="100" src="resources/ios/icon/icon-50@2x.png" width="100" />
+    <icon height="167" src="resources/ios/icon/icon-83.5@2x.png" width="167" />
+    <splash src="resources/ios/splash/Default@2x~universal~anyany.png" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
