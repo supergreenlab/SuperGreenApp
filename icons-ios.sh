@@ -1,3 +1,3 @@
 #!/bin/bash
 
-for i in `ls $1`; do echo "<icon src=\"$1/$i\" width=\"`identify -format '%w' $1/$i`\" height=\"`identify -format '%h' $1/$i`\"/>"; done
+for i in `ls platforms/ios/SuperGreenLab/Images.xcassets/AppIcon.appiconset/*.png`; do convert $i -alpha off $i; done
