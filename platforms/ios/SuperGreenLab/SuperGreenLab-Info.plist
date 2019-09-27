@@ -24,12 +24,29 @@
 	<string>1.0.6</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsForMedia</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Your description here</string>
 	<key>NSMainNibFile</key>
-	<string/>
+	<string></string>
 	<key>NSMainNibFile~ipad</key>
-	<string/>
+	<string></string>
+	<key>UILaunchStoryboardName</key>
+	<string>CDVLaunchScreen</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -43,20 +60,5 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-		<key>NSAllowsArbitraryLoadsInWebContent</key>
-		<true/>
-		<key>NSAllowsArbitraryLoadsForMedia</key>
-		<true/>
-		<key>NSAllowsLocalNetworking</key>
-		<true/>
-	</dict>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>Your description here</string>
-	<key>UILaunchStoryboardName</key>
-	<string>CDVLaunchScreen</string>
 </dict>
 </plist>
