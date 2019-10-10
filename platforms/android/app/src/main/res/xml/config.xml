@@ -10,6 +10,20 @@
     <feature name="ZeroConf">
         <param name="android-package" value="net.becvert.cordova.ZeroConf" />
     </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Permissions">
+        <param name="android-package" value="com.android.plugins.Permissions" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
     <name>SuperGreenLab</name>
     <description>
       Control your growbox from your smartphone.
@@ -38,6 +52,11 @@
     <icon density="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
     <icon density="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
     <icon density="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
+    <config-file parent="/*" target="AndroidManifest.xml">
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permissions.NETWORK_ACCESS" />
+        <uses-permission android:name="android.permissions.ACCESS_NETWORK_STATE" />
+    </config-file>
     <preference name="loglevel" value="DEBUG" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="true" />

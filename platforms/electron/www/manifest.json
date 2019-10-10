@@ -6,13 +6,7 @@
   "name": "SuperGreenLab",
   "short_name": "SuperGreenLab",
   "version": "com.supergreenlab.app",
-  "description": "Control your growbox with your smartphone.",
+  "description": "Control your growbox from your smartphone.",
   "author": "Constantin Clauzel",
-  "icons": [
-    {
-      "src": "app-icon.jpg",
-      "type": "image/png",
-      "sizes": "1024x1024"
-    }
-  ]
+  "icons": []
 }

@@ -15,6 +15,18 @@
     },
     "cordova-plugin-ble-central": {
       "PACKAGE_NAME": "HelloCordova"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "SuperGreenLab"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "SuperGreenLab"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "SuperGreenLab"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "SuperGreenLab"
     }
   },
   "dependent_plugins": {

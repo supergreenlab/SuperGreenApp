@@ -2,8 +2,8 @@
   "main": "cdv-electron-main.js",
   "name": "com.supergreenlab.app",
   "displayName": "SuperGreenLab",
-  "version": "1.0.1",
-  "description": "Control your growbox with your smartphone.",
+  "version": "1.0.10",
+  "description": "Control your growbox from your smartphone.",
   "homepage": "http://www.supergreenlab.com",
   "license": "Apache-2.0",
   "author": "Constantin Clauzel"

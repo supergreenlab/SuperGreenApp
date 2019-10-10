@@ -1,33 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.supergreenlab.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.supergreenlab.app" version="1.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
     <name>SuperGreenLab</name>
     <description>
-      Control your growbox with your smartphone.
+      Control your growbox from your smartphone.
     </description>
     <author email="services@supergreenlab.com" href="http://www.supergreenlab.com">
       Constantin Clauzel
     </author>
     <content src="index.html" />
     <access allows-arbitrary-loads-for-media="true" allows-arbitrary-loads-in-web-content="true" allows-local-networking="true" origin="*" />
-    <icon height="1024" src="app-icon.jpg" width="1024" />
     <allow-navigation href="http://*/*" />
     <allow-navigation href="https://*/*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <icon src="res/icon/windows/storelogo.png" target="StoreLogo" />
-    <icon src="res/icon/windows/smalllogo.png" target="Square30x30Logo" />
-    <icon src="res/icon/windows/Square44x44Logo.png" target="Square44x44Logo" />
-    <icon src="res/icon/windows/Square70x70Logo.png" target="Square70x70Logo" />
-    <icon src="res/icon/windows/Square71x71Logo.png" target="Square71x71Logo" />
-    <icon src="res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" />
-    <icon src="res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" />
-    <splash src="res/screen/windows/splashscreen.png" target="SplashScreen" />
-    <splash src="res/screen/windows/splashscreenphone.png" target="SplashScreenPhone" />
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:usesCleartextTraffic="true" />
+    </edit-config>
 </widget>

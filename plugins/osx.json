@@ -9,7 +9,11 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {},
     "cordova-plugin-zeroconf": {},
-    "cordova-plugin-ble-central": {}
+    "cordova-plugin-ble-central": {},
+    "cordova-plugin-camera": {},
+    "cordova-plugin-android-permissions": {},
+    "cordova-plugin-device": {},
+    "cordova-plugin-file": {}
   },
   "dependent_plugins": {
     "cordova-plugin-add-swift-support": {},

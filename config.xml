@@ -33,6 +33,12 @@
         <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi" />
         <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi" />
         <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+          <uses-permission android:name="android.permission.INTERNET" />
+          <uses-permission android:name="android.permissions.NETWORK_ACCESS" />
+          <uses-permission android:name="android.permissions.ACCESS_NETWORK_STATE" />
+        </config-file>
     </platform>
 
     <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">

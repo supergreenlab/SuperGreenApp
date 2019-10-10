@@ -18,8 +18,12 @@
     "cordova-ios": "^5.0.1",
     "cordova-osx": "^5.0.0",
     "cordova-plugin-add-swift-support": "^2.0.2",
+    "cordova-plugin-android-permissions": "^1.0.0",
     "cordova-plugin-ble-central": "^1.2.2",
+    "cordova-plugin-camera": "^2.4.1",
     "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-file": "^4.3.3",
     "cordova-plugin-zeroconf": "^1.4.0",
     "cordova-windows": "^7.0.0"
   },
@@ -32,7 +36,14 @@
       "cordova-plugin-zeroconf": {},
       "cordova-plugin-ble-central": {
         "BLUETOOTH_USAGE_DESCRIPTION": "For an easier wifi configuration"
-      }
+      },
+      "cordova-plugin-camera": {
+        "CAMERA_USAGE_DESCRIPTION": " ",
+        "PHOTOLIBRARY_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-android-permissions": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-file": {}
     },
     "platforms": [
       "electron",

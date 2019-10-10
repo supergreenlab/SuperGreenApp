@@ -15,6 +15,18 @@
     },
     "cordova-plugin-zeroconf": {
       "PACKAGE_NAME": "com.supergreenlab.app"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.supergreenlab.app"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.supergreenlab.app"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.supergreenlab.app"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.supergreenlab.app"
     }
   },
   "dependent_plugins": {
