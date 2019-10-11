@@ -91,6 +91,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.jmdns:jmdns:3.5.5@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:24.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v4:24.1.1@aar" level="project" />
     <orderEntry type="module" module-name="CordovaLib" />
   </component>
 </module>
