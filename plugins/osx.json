@@ -13,7 +13,8 @@
     "cordova-plugin-camera": {},
     "cordova-plugin-android-permissions": {},
     "cordova-plugin-device": {},
-    "cordova-plugin-file": {}
+    "cordova-plugin-file": {},
+    "cordova-plugin-inappbrowser": {}
   },
   "dependent_plugins": {
     "cordova-plugin-add-swift-support": {},

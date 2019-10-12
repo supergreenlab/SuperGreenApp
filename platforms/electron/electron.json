@@ -46,6 +46,9 @@
     },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "com.supergreenlab.app"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.supergreenlab.app"
     }
   },
   "dependent_plugins": {},
@@ -296,6 +299,21 @@
       "merges": [
         "window.FileSystem"
       ]
+    },
+    {
+      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "id": "cordova-plugin-inappbrowser.inappbrowser",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "clobbers": [
+        "cordova.InAppBrowser.open",
+        "window.open"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js",
+      "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "runs": true
     }
   ],
   "plugin_metadata": {
@@ -307,6 +325,7 @@
     "cordova-plugin-camera": "2.4.1",
     "cordova-plugin-android-permissions": "1.0.0",
     "cordova-plugin-device": "2.0.3",
-    "cordova-plugin-file": "4.3.3"
+    "cordova-plugin-file": "4.3.3",
+    "cordova-plugin-inappbrowser": "3.1.0"
   }
 }

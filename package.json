@@ -24,6 +24,7 @@
     "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-file": "^4.3.3",
+    "cordova-plugin-inappbrowser": "^3.1.0",
     "cordova-plugin-zeroconf": "^1.4.0",
     "cordova-windows": "^7.0.0"
   },
@@ -43,7 +44,8 @@
       },
       "cordova-plugin-android-permissions": {},
       "cordova-plugin-device": {},
-      "cordova-plugin-file": {}
+      "cordova-plugin-file": {},
+      "cordova-plugin-inappbrowser": {}
     },
     "platforms": [
       "electron",

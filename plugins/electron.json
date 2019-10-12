@@ -27,6 +27,9 @@
     },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "com.supergreenlab.app"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.supergreenlab.app"
     }
   },
   "dependent_plugins": {

@@ -224,6 +224,21 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
         "cordova"
       ],
       "runs": true
+    },
+    {
+      "id": "cordova-plugin-inappbrowser.inappbrowser",
+      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "clobbers": [
+        "cordova.InAppBrowser.open",
+        "window.open"
+      ]
+    },
+    {
+      "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
+      "file": "plugins/cordova-plugin-inappbrowser/src/windows/InAppBrowserProxy.js",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "runs": true
     }
   ];
   module.exports.metadata = {
@@ -235,6 +250,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-camera": "2.4.1",
     "cordova-plugin-android-permissions": "1.0.0",
     "cordova-plugin-device": "2.0.3",
-    "cordova-plugin-file": "4.3.3"
+    "cordova-plugin-file": "4.3.3",
+    "cordova-plugin-inappbrowser": "3.1.0"
   };
 });
