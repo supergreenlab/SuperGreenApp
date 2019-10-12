@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.11</string>
+	<string>1.0.12</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.11</string>
+	<string>1.0.12</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -61,10 +61,12 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSCameraUsageDescription</key>
-	<string/>
+	<string>Used when sharing to the community channel</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string/>
+	<string>Used when sharing to the community channel</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Only used while setting up wifi</string>
 </dict>
 </plist>

@@ -84,6 +84,16 @@
       <icon src="resources/ios/icon/icon-83.5@2x.png" width="167" height="167" />
 
       <splash src="resources/ios/splash/Default@2x~universal~anyany.png" />
+
+      <config-file parent="NSBluetoothAlwaysUsageDescription" platform="ios" target="*-Info.plist">
+	<string>Only used while setting up wifi</string>
+      </config-file>
+      <config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
+	<string>Used when sharing to the community channel</string>
+      </config-file>
+      <config-file parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist">
+	<string>Used when sharing to the community channel</string>
+      </config-file>
     </platform>
 
     <platform name="windows">

@@ -71,20 +71,29 @@
           ],
           "NSCameraUsageDescription": [
             {
-              "xml": "<string> </string>",
-              "count": 1
+              "xml": "<string>Used when sharing to the community channel</string>",
+              "count": 1,
+              "id": "config.xml"
             }
           ],
           "NSPhotoLibraryUsageDescription": [
             {
-              "xml": "<string> </string>",
-              "count": 1
+              "xml": "<string>Used when sharing to the community channel</string>",
+              "count": 1,
+              "id": "config.xml"
             }
           ],
           "NSLocationWhenInUseUsageDescription": [
             {
               "xml": "<string />",
               "count": 1
+            }
+          ],
+          "NSBluetoothAlwaysUsageDescription": [
+            {
+              "xml": "<string>Only used while setting up wifi</string>",
+              "count": 1,
+              "id": "config.xml"
             }
           ]
         }
