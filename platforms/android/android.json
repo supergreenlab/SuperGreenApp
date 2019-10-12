@@ -38,6 +38,16 @@
               "xml": "<uses-permission android:name=\"android.permissions.ACCESS_NETWORK_STATE\" />",
               "count": 1,
               "id": "config.xml"
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.CHANGE_WIFI_MULTICAST_STATE\" />",
+              "count": 1,
+              "id": "config.xml"
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+              "count": 1,
+              "id": "config.xml"
             }
           ],
           "application": [
