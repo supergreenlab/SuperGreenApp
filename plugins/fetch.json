@@ -23,16 +23,6 @@
     "is_top_level": false,
     "variables": {}
   },
-  "cordova-plugin-ble-central": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-ble-central@^1.2.2"
-    },
-    "is_top_level": true,
-    "variables": {
-      "BLUETOOTH_USAGE_DESCRIPTION": "Your description here"
-    }
-  },
   "cordova-plugin-compat": {
     "source": {
       "type": "registry",

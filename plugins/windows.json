@@ -13,9 +13,6 @@
     "cordova-plugin-zeroconf": {
       "PACKAGE_NAME": "HelloCordova"
     },
-    "cordova-plugin-ble-central": {
-      "PACKAGE_NAME": "HelloCordova"
-    },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "SuperGreenLab"
     },

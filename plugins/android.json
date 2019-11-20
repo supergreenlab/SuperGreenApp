@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-ble-central": {
-      "PACKAGE_NAME": "com.supergreenlab.app"
-    },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.supergreenlab.app"
     },

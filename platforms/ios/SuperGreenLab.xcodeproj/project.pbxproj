@@ -12,11 +12,7 @@
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		5693445B83A94007A7F1CA15 /* CBPeripheral+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 684896CB916A452DA8F11F0D /* CBPeripheral+Extensions.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		77DFF57439E645059946C4D5 /* BLECommandContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7F3A56E2C42F4A90F9AEC /* BLECommandContext.m */; };
-		96EA2E7F3DB04F90B685B19D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FAD0B94B714DF1896FD7A5 /* CoreBluetooth.framework */; };
-		CC4214B4E3FE4EA8BA529D9D /* BLECentralPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEA2E21F8745A49DF70097 /* BLECentralPlugin.m */; };
 		F47F5F3E28DB439B870BB2B1 /* ZeroConf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D70DA9AC534B9FA6D803BC /* ZeroConf.swift */; };
 		FE9D16F4F0954B0FA4955427 /* Hostname.m in Sources */ = {isa = PBXBuildFile; fileRef = D1273927A505492BA693DBD8 /* Hostname.m */; };
 		8EEC9D06F7B94B08BE898E6C /* UIImage+CropScaleOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC2387F16849B6BE7CA383 /* UIImage+CropScaleOrientation.m */; };
@@ -64,7 +60,6 @@
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SuperGreenLab/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		0325B058CA75472F8636115B /* Hostname.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Hostname.h; path = "cordova-plugin-zeroconf/Hostname.h"; sourceTree = "<group>"; };
-		12FAD0B94B714DF1896FD7A5 /* CoreBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* SuperGreenLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperGreenLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,17 +73,11 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* SuperGreenLab-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SuperGreenLab-Prefix.pch"; sourceTree = "<group>"; };
-		4CDEA2E21F8745A49DF70097 /* BLECentralPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BLECentralPlugin.m; path = "cordova-plugin-ble-central/BLECentralPlugin/BLECentralPlugin.m"; sourceTree = "<group>"; };
 		4E7CDF386F534AEB88BE8D64 /* ZeroConf-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ZeroConf-Bridging-Header.h"; path = "cordova-plugin-zeroconf/ZeroConf-Bridging-Header.h"; sourceTree = "<group>"; };
-		684896CB916A452DA8F11F0D /* CBPeripheral+Extensions.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+Extensions.m"; path = "cordova-plugin-ble-central/BLECentralPlugin/CBPeripheral+Extensions.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = SuperGreenLab/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		78D7F3A56E2C42F4A90F9AEC /* BLECommandContext.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BLECommandContext.m; path = "cordova-plugin-ble-central/BLECentralPlugin/BLECommandContext.m"; sourceTree = "<group>"; };
 		80D70DA9AC534B9FA6D803BC /* ZeroConf.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ZeroConf.swift; path = "cordova-plugin-zeroconf/ZeroConf.swift"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SuperGreenLab-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SuperGreenLab-Info.plist"; path = "SuperGreenLab/SuperGreenLab-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		9D765EB0A8ED4E928503AEE1 /* CBPeripheral+Extensions.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+Extensions.h"; path = "cordova-plugin-ble-central/BLECentralPlugin/CBPeripheral+Extensions.h"; sourceTree = "<group>"; };
-		C3E27254481C4D21B3D5D254 /* BLECommandContext.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BLECommandContext.h; path = "cordova-plugin-ble-central/BLECentralPlugin/BLECommandContext.h"; sourceTree = "<group>"; };
 		D1273927A505492BA693DBD8 /* Hostname.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Hostname.m; path = "cordova-plugin-zeroconf/Hostname.m"; sourceTree = "<group>"; };
-		DE64AADD8F78411BA87B0E6C /* BLECentralPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BLECentralPlugin.h; path = "cordova-plugin-ble-central/BLECentralPlugin/BLECentralPlugin.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
@@ -131,7 +120,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				96EA2E7F3DB04F90B685B19D /* CoreBluetooth.framework in Frameworks */,
 				25668D597B3442B7BDBF640B /* ImageIO.framework in Frameworks */,
 				1FFFF62C7EE441F6943743D4 /* CoreLocation.framework in Frameworks */,
 				04E6226E08164A16A9D113A3 /* AVFoundation.framework in Frameworks */,
@@ -205,7 +193,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				12FAD0B94B714DF1896FD7A5 /* CoreBluetooth.framework */,
 				85F7D24BECA4478EB2707ED0 /* ImageIO.framework */,
 				E465D2C604DA4C1C9FE2803E /* CoreLocation.framework */,
 				A1521F95D09C4A9AB297E5A6 /* AVFoundation.framework */,
@@ -235,12 +222,6 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				4CDEA2E21F8745A49DF70097 /* BLECentralPlugin.m */,
-				684896CB916A452DA8F11F0D /* CBPeripheral+Extensions.m */,
-				78D7F3A56E2C42F4A90F9AEC /* BLECommandContext.m */,
-				DE64AADD8F78411BA87B0E6C /* BLECentralPlugin.h */,
-				9D765EB0A8ED4E928503AEE1 /* CBPeripheral+Extensions.h */,
-				C3E27254481C4D21B3D5D254 /* BLECommandContext.h */,
 				80D70DA9AC534B9FA6D803BC /* ZeroConf.swift */,
 				D1273927A505492BA693DBD8 /* Hostname.m */,
 				4E7CDF386F534AEB88BE8D64 /* ZeroConf-Bridging-Header.h */,
@@ -401,9 +382,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				CC4214B4E3FE4EA8BA529D9D /* BLECentralPlugin.m in Sources */,
-				5693445B83A94007A7F1CA15 /* CBPeripheral+Extensions.m in Sources */,
-				77DFF57439E645059946C4D5 /* BLECommandContext.m in Sources */,
 				F47F5F3E28DB439B870BB2B1 /* ZeroConf.swift in Sources */,
 				FE9D16F4F0954B0FA4955427 /* Hostname.m in Sources */,
 				8EEC9D06F7B94B08BE898E6C /* UIImage+CropScaleOrientation.m in Sources */,

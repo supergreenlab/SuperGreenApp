@@ -9,7 +9,6 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {},
     "cordova-plugin-zeroconf": {},
-    "cordova-plugin-ble-central": {},
     "cordova-plugin-camera": {},
     "cordova-plugin-android-permissions": {},
     "cordova-plugin-device": {},
